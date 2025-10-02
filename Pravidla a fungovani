@@ -8,7 +8,7 @@ Karty
 Průběh hry
   Dealer zamycha balicek
   Hrac umistni sazku
-  Jednu kartu dostane dealer, a pote hrač jednu, dalsi jednu dealer ale neodhalenou a pote dalsi jednu hrac
+  Jednu kartu dostane dealer, a pote hrač dve karty, dalsi jednu dealer ale neodhalenou
   Pokud je dealerova karta A nebo karta s hodnotou 10 tak si mohou hrači vybrat jestli si pojisti svoji sazku tim ze vlozi polovinu sve puvodni sazky, nebo ne
   dealer se podiva jestli jeho karta v součtu s puvodni kartou tvoři 21, když by tvořila tak to odhali kartu a hraci s pojistkou se pojistka přičtě k puvodni sazce,
   hrac bez pojistky automaticky prohrava,
