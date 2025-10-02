@@ -7,11 +7,30 @@ Karty
 
 Průběh hry
   Dealer zamycha balicek
+
   Hrac umistni sazku
+
   Jednu kartu dostane dealer, a pote hrač dve karty, dalsi jednu dealer ale neodhalenou
-  Pokud je dealerova karta A nebo karta s hodnotou 10 tak si mohou hrači vybrat jestli si pojisti svoji sazku tim ze vlozi polovinu sve puvodni sazky, nebo ne
+
+  Pokud je dealerova pdhalena karta A nebo karta s hodnotou 10 tak si mohou hrači vybrat jestli si pojisti svoji sazku tim ze vlozi polovinu sve puvodni sazky, nebo ne
   dealer se podiva jestli jeho karta v součtu s puvodni kartou tvoři 21, když by tvořila tak to odhali kartu a hraci s pojistkou se pojistka přičtě k puvodni sazce,
   hrac bez pojistky automaticky prohrava,
   pokud to netvoři 21 tak pojisteni hraci straci svoji pojistku a vsichni pokracuji dal, dealerova druha karta zustava neodhalena.
+  
+  hrac dostane na vyber jestli chce vzit kartu, stát, nebo zdvojnasobit
+    VZÍT - hráč dostane kartu, pokud je součet jeho karet menší než 21 tak dostane znovu nabidku voleb ale pouze stat nebo vzit neleze již zdvojnasobit,
+    ZDVOJNASOBIT - tato volba je pouze v prním tahu hráče a znamená to, že hráč zdvojnasobi svoji sazku a dostane pouze jednu kartu, pote již nelze pokračovat a musí stát
+    pokud se hrac dostane nad hranici 21 je jeho hra ukoncena a prohrava
+    STÁT - ukončí svůj tah a nechá hrát dealera
+
+  dealer ted odkryje svoji skrytou kartu
+  dealer hraje podle pravidel nema zadnou taktiku
+    dealer bere pokud ma mene nez 17 a stoji na 17 a vice, stoji take pokud ma vice nez hrac
+  dealer prohrava pokud se dostane nad 21, nebo pokud ma 17 a vice ale zaroven hrac ma vice nez dealer
+
+Vyhodnoceni hry
+  pokud dealer prohral tak hrac dostane na ucet 2x tolik penez kolik mel na stole. Priklad: na stole ma sazku 20, vyhraje tak dostane na ucet 40
+  pokud prohral hrac tak jeho penize ktere ma na stole zmizi
+
 
  
