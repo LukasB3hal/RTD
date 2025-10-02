@@ -1,0 +1,12 @@
+body{
+    background-image: url('6421734.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.stred{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
