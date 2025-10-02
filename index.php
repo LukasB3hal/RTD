@@ -1,3 +1,10 @@
+
+<?php
+require_once 'auth.php';
+?>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
