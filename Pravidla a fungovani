@@ -1,0 +1,17 @@
+Karty
+  59 karet celkem
+  Od kazdeho znaku jsou v balicku karty A,2-10,J,Q,K
+  Karty 2-10 maji hodnotu sveho cisla
+  Karta A - 1 nebo 11 (podle toho, co se hráči hodí víc, aby nepřesáhl 21)
+  J,Q,K - maji hodnotu 10
+
+Průběh hry
+  Dealer zamycha balicek
+  Hrac umistni sazku
+  Jednu kartu dostane dealer, a pote hrač jednu, dalsi jednu dealer ale neodhalenou a pote dalsi jednu hrac
+  Pokud je dealerova karta A nebo karta s hodnotou 10 tak si mohou hrači vybrat jestli si pojisti svoji sazku tim ze vlozi polovinu sve puvodni sazky, nebo ne
+  dealer se podiva jestli jeho karta v součtu s puvodni kartou tvoři 21, když by tvořila tak to odhali kartu a hraci s pojistkou se pojistka přičtě k puvodni sazce,
+  hrac bez pojistky automaticky prohrava,
+  pokud to netvoři 21 tak pojisteni hraci straci svoji pojistku a vsichni pokracuji dal, dealerova druha karta zustava neodhalena.
+
+ 
